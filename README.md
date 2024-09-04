@@ -26,18 +26,20 @@ The scraper works by retrieving articles from the Nature website based on the nu
    ```bash
    python scraper.py
 
-4. When prompted, input the number of pages you want to scrape and the type of article you're interested in:
+4. When prompted, input the number of pages you want to scrape, the year and the type of article you're interested in:
    ```bash
    Enter the number of pages to scrape:
     > 4
-    Enter the article type to scrape:
+   Enter the article type to scrape:
     > News
+   Enter the year of publication to scrape (e.g., 2020):
+    > 2024
 
-5. The program will create directories for each page (e.g., Page_1, Page_2, etc.) and save the articles in those directories as .txt files.
+5. The program will create directories for each page and save the articles in those directories as .txt files.
 
 ## Note:
 
-The URL used for scraping is hardcoded to scrape articles from the Nature website in 2020. If you want to scrape articles from a different year or a different site, you can modify the base_url variable in the code. Adjustments may be needed to work correctly on other pages.
+The URL used for scraping is hardcoded to scrape articles from the Nature website. If you want to scrape articles from a different site, you can modify the base_url variable in the code. Adjustments may be needed to work correctly on other pages.
 
 ## Requirements
 
